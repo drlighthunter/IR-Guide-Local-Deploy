@@ -1,0 +1,1 @@
+import { ChatInterface } from './components/ChatInterface';\nimport './global.css';\n\nexport default function App() {\n  return (\n    <div className=\"min-h-screen bg-slate-100 font-sans antialiased\">\n      <ChatInterface />\n    </div>\n  );\n}\n
